@@ -17,7 +17,7 @@ const Chat = () => {
     const [message, setMessage] = useState('');
     const [messages, setMessages] = useState([]);
     const [users, setUsers] = useState('');
-    const ENDPOINT = 'https://utkarsh-react-chat-server.vercel.app/';
+    const ENDPOINT = process.env.REACT_APP_SERVER_URL;
     const location = useLocation();
     useEffect(() => {
         const { name, room } = queryString.parse(location.search);
