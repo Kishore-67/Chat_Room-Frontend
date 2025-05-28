@@ -17,7 +17,7 @@ const Chat = () => {
     const [message, setMessage] = useState('');
     const [messages, setMessages] = useState([]);
     const [users, setUsers] = useState('');
-    const ENDPOINT = process.env.REACT_APP_SERVER_URL;
+    const ENDPOINT = "https://chat-room-backend-95j3.onrender.com";
     const location = useLocation();
     useEffect(() => {
         const { name, room } = queryString.parse(location.search);
