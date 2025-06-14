@@ -1,7 +1,6 @@
 Realtime Chat Application: Seamless Communication with ReactJS and NodeJS
 =========================================================================  
 
-[Live Website](https://utkarsh-react-chat-app.netlify.app/)  
 
 The Realtime Chat Application is a cutting-edge platform that leverages ReactJS on the front end and NodeJS, along with the Socket.io library, on the backend, to enable instantaneous, real-time messaging. This application revolutionizes the way people connect and communicate online, offering a responsive and dynamic environment for users to send and receive messages without any delay.  
 
